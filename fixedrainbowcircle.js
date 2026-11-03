@@ -16,7 +16,7 @@ function draw() {
 
   //loop 5 circles shrinking inside eachother
   if (keyIsDown(UP_ARROW) === true &&mouseX>0 && mouseX<400 &&mouseY>0 &&mouseY<400) {
-    for (let i = 0; i < 5; i++) {
+    for (let i = 1; i < 6; i++) {
       fill(r, g, b);
       circle(mouseX, mouseY, 50 - i * 8);
     }
